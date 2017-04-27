@@ -16,8 +16,9 @@ my_list = []
 def add_to_list(my_list):
     """Takes user input and adds it as a new item to the end of the list."""
 
-    print "The add_to_list function has not yet been written"
-
+    todo = raw_input ("please type your item ")
+    my_list.append(todo)
+    return my_list
 
 def view_list(my_list):
     """Print each item in the list."""
